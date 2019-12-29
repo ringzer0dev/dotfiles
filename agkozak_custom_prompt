@@ -1,0 +1,6 @@
+AGKOZAK_CUSTOM_PROMPT=$'\n%F{yellow}λ %(!.%B.%B%F{green})%n%1v%(!.%b%s.%f%b) '
+AGKOZAK_CUSTOM_PROMPT+='%B%F{blue}%2v%f%b'
+AGKOZAK_CUSTOM_PROMPT+='%(3V.%F{yellow}%3v%f.)'
+AGKOZAK_CUSTOM_PROMPT+=$' %(?..%B%F{red}(%?%)%f%b )\n'
+AGKOZAK_CUSTOM_PROMPT+='%(4V.:.%F{cyan}#%f) '
+AGKOZAK_CUSTOM_RPROMPT=''
