@@ -1,0 +1,47 @@
+{
+  "_from": "https://www.atom.io/api/packages/hacker-dream-syntax/versions/1.4.8/tarball",
+  "_id": "hacker-dream-syntax@1.4.8",
+  "_inBundle": false,
+  "_integrity": "sha512-zmkTRy/YMEWntm+1Q9ad/x7xUHArHB6/989v6upJB4GyvnxV2cmUavKEoRR+re3yrqCwfSEXZpIWOGgog1kmcw==",
+  "_location": "/hacker-dream-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/hacker-dream-syntax/versions/1.4.8/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/hacker-dream-syntax/versions/1.4.8/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/hacker-dream-syntax/versions/1.4.8/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/hacker-dream-syntax/versions/1.4.8/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/hacker-dream-syntax/versions/1.4.8/tarball",
+  "_shasum": "d0d2f9e8fdcd09bfd176d6026109c0ebc332d1e2",
+  "_spec": "https://www.atom.io/api/packages/hacker-dream-syntax/versions/1.4.8/tarball",
+  "_where": "/tmp/apm-install-dir-12006-20829-6l17ub.fkwqb",
+  "bugs": {
+    "url": "https://github.com/xeroxyde/hacker-dream-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A theme inspired from the command line colors",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/xeroxyde/hacker-dream-syntax#readme",
+  "keywords": [
+    "syntax",
+    "dark",
+    "black",
+    "term"
+  ],
+  "license": "MIT",
+  "name": "hacker-dream-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xeroxyde/hacker-dream-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "1.4.8"
+}

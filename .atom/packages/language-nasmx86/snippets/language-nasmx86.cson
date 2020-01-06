@@ -1,0 +1,35 @@
+#   .bss .data .rodata .text
+'.source.assembly':
+    '%include ""':
+        'prefix': 'inc'
+        'body': 'include ""'
+    'io.inc':
+        'prefix': 'io'
+        'body': 'io.inc'
+    'section':
+        'prefix': 'sec'
+        'body': 'section'
+    'global':
+        'prefix': 'glo'
+        'body': 'global'
+    'byte':
+        'prefix': 'by'
+        'body': 'byte'
+    'word':
+        'prefix': 'wo'
+        'body': 'word'
+    'dword':
+        'prefix': 'dw'
+        'body': 'dword'
+    'resb':
+        'prefix': 'resb'
+        'body': 'resb'
+    'resw':
+        'prefix': 'resw'
+        'body': 'resw'
+    'resd':
+        'prefix': 'resd'
+        'body': 'resd'
+    'CMAIN':
+        'prefix': 'cmain'
+        'body': 'CMAIN'

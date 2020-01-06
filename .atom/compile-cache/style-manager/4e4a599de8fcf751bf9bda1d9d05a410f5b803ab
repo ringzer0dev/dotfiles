@@ -1,0 +1,1 @@
+{"source":"kite-open-link {\n  display: inline-block;\n}\nkite-open-link a[href] {\n  margin: -10px;\n  padding: 10px;\n  line-height: 4em;\n}\nkite-open-link a[href] span {\n  color: rgba(157, 165, 180, 0.6);\n}\nkite-open-link:hover {\n  color: #d7dae0;\n}\nkite-open-link kbd {\n  display: none;\n}\n"}

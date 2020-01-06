@@ -1,0 +1,29 @@
+"*":
+  "atom-ide-ui":
+    "atom-ide-code-format": {}
+  core:
+    colorProfile: "srgb"
+    disabledPackages: [
+      "spell-check"
+    ]
+    telemetryConsent: "no"
+    useTreeSitterParsers: false
+  editor:
+    showIndentGuide: true
+    tabLength: 8
+    tabType: "soft"
+  "exception-reporting":
+    userId: "ae0033cf-506c-49c2-975a-b0ff4f66b66a"
+  "gpp-compiler": {}
+  "ide-cquery":
+    cqueryPath: "/usr/bin/cquery/bin/cquery"
+  kite:
+    showWelcomeNotificationOnStartup: false
+  "platformio-ide-terminal":
+    style:
+      theme: "solarized-dark"
+  welcome:
+    showOnStartup: false
+".assembly.source":
+  editor:
+    showIndentGuide: true

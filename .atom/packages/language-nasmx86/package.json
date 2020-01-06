@@ -1,0 +1,46 @@
+{
+  "_from": "https://www.atom.io/api/packages/language-nasmx86/versions/0.1.0/tarball",
+  "_id": "language-nasmx86@0.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-dwNcomVmnxqckeCY3HOZ6LJUcsCYo7kVL6CiJBMWRNgAdDTSWAVUTcywqy4xSyB2Iq03ZmqX8ajJH13ssSSgWw==",
+  "_location": "/language-nasmx86",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/language-nasmx86/versions/0.1.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/language-nasmx86/versions/0.1.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/language-nasmx86/versions/0.1.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/language-nasmx86/versions/0.1.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/language-nasmx86/versions/0.1.0/tarball",
+  "_shasum": "9b931885ad12b8a86f8241c673fe40a9cfc5be85",
+  "_spec": "https://www.atom.io/api/packages/language-nasmx86/versions/0.1.0/tarball",
+  "_where": "/tmp/apm-install-dir-12006-3633-xry8mr.up0tn",
+  "bugs": {
+    "url": "https://github.com/thiranger/language-nasmx86/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Adds syntax highlighting to Assembly x86 (NASM) files in Atom",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/thiranger/language-nasmx86#readme",
+  "keywords": [
+    "nasm",
+    "highlighting",
+    "grammar"
+  ],
+  "license": "MIT",
+  "main": "./lib/language-nasmx86",
+  "name": "language-nasmx86",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiranger/language-nasmx86.git"
+  },
+  "version": "0.1.0"
+}
