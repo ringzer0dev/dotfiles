@@ -70,7 +70,9 @@ ZSH_THEME="agkozak"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git
 	virtualenv
-	nice-exit-code)
+	nice-exit-code
+	bgnotify
+	)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -138,3 +140,16 @@ AGKOZAK_CUSTOM_RPROMPT+='%(3V.%F{yellow}%3v%f.)'
 # Aliases
 alias cx="chmod +x"
 alias al="ls -al"
+
+# Path exports
+export PATH=$PATH:~/bin/
+export PATH=$PATH:/opt/idafree-7.0/
+export PATH=$PATH:~/bin/Telegram/
+
+# Tilix VTE config.
+# Whatever 
+if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
+        source /etc/profile.d/vte.sh
+fi
+
+
