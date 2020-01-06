@@ -152,4 +152,39 @@ if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
         source /etc/profile.d/vte.sh
 fi
 
+###########################################
+# Assembly helper function		  
+# Assembles and links .asm and .nasm files
+###########################################
+
+assemble ()
+{
+    name="${1}";
+    base="$(basename ${name} .nasm)";
+    base="$(basename ${base} .asm)";
+    nasm -f elf64 "${name}" -o "${base}".o;
+    ld "${base}".o -o "${base}"
+}
+
+##########################################
+# Dump shellcode from assembled file
+##########################################
+
+dump-shellcode ()
+{
+    accum=0;
+    sentry="No nulls found";
+    for i in $(objdump -d "${1}" -M intel | grep "^ " | cut -f 2);
+    do
+        echo -nE '\x'$i;
+        accum=$(( accum + 1 ));
+        if [[ "${i}" = "00" ]]; then
+            sentry="You have nulls, try again";
+        fi;
+    done;
+    echo && echo "length of shellcode: $accum";
+    echo "${sentry}"
+}
+
+
 
