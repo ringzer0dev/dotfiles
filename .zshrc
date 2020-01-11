@@ -153,6 +153,32 @@ if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
 fi
 
 ###########################################
+# C/C++ MinGW Static Compilation aider		  #
+###########################################
+ cmalw ()
+ {
+ 	extension=".exe"
+	file="${1}";
+	base="$(basename ${file} .c)"
+	base="$(basename ${base} .cpp)";
+	i686-w64-mingw32-g++ "${file}" -o "${base}$extension" -s -lws2_32 -Wno-write-strings -fno-exceptions -fmerge-all-constants -static-libstdc++ -static-libgcc -Wall -ffunction-sections
+#	i686-w64-mingw32-g++ prometheus.cpp -o prometheus.exe -lws2_32 -s -ffunction-sections -fdata-sections -Wno-write-strings -fno-exceptions -fmerge-all-constants -static-libstdc++ -static-libgcc
+#
+}
+
+##########################################
+#	Website cloning with wget
+##########################################
+
+webget ()
+{
+wget --mirror --convert-links --adjust-extension --page-requisites --no-parent $1
+}
+
+
+
+
+###########################################
 # Assembly helper function		  
 # Assembles and links .asm and .nasm files
 ###########################################
